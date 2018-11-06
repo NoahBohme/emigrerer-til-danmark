@@ -87,6 +87,7 @@ digraph g {
 
   danish_lessions [ label="Danish lessons" ]
   danish_lessions -> cpr_number
+  danish_lessions -> danish_bank_card
 
   danish_bank_card [ label="Danish bank card" ]
   danish_bank_card -> danish_bank_account [ color="red" ]
