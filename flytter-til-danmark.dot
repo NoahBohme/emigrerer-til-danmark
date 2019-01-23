@@ -26,7 +26,7 @@ digraph g {
   eu_residence_document_application -> passport
   eu_residence_document_application -> od1_form
   od1_form [ label="OD1 form\n2019-01-22" style=filled fillcolor=green ]
-  passport_photo [ label="Passport photo" ]
+  passport_photo [ label="Passport photo\n2019-01-23" style=filled fillcolor=green ]
   eu_residence_document_application -> passport_photo
 
   eu_residence_document [ label="EU residence document" ]
