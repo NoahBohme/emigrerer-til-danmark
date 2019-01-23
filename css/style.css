@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 200%;
+}
+#introduktion {
+  font-size: 150%;
+}
+#graf {
+  padding: 1em;
+}

@@ -1,41 +1,39 @@
 digraph g {
-  job
-  proof_of_work [ label="proof of work" ]
+  job [ label="A job\n2018-10-19" style=filled fillcolor=green ]
+  proof_of_work [ label="Proof of work\n2019-01-22" style=filled fillcolor=green ]
   proof_of_work -> job
 
-  passport
+  passport [ label="Passport\n2015" style=filled fillcolor=green ]
 
-  danish_phone_number [ label="Danish phone number" ]
-  rejsekort
+  danish_phone_number [ label="Danish phone number\n2019-01-17" style=filled fillcolor=green ]
+  rejsekort [ label="Rejsekort\n2018-10-19 ?" style=filled fillcolor=green ]
 
-  start_looking_for_place_to_live [ label="start looking for\na place to live" ]
-  place_to_live [ label="a place to live" ]
-  place_to_live -> start_looking_for_place_to_live [ color="red" ]
+  place_to_live [ label="A place to live\n2019-01-21" style=filled fillcolor=green ]
 
-  name_on_postbox [ label="your name\non your postbox" ]
+  name_on_postbox [ label="Your name on\nyour postbox\n2019-01-22" style=filled fillcolor=green ]
   name_on_postbox -> place_to_live
 
-  can_receive_post [ label="you can receive post" ]
+  can_receive_post [ label="Ability to receive post\n2019-01-22" style=filled fillcolor=green ]
   can_receive_post -> place_to_live
   can_receive_post -> name_on_postbox
 
   pendlerkort
   pendlerkort -> place_to_live
 
-  eu_residence_document_application [ label="application for\nEU residence document" ]
+  eu_residence_document_application [ label="Application for\nEU residence document" ]
   eu_residence_document_application -> place_to_live
   eu_residence_document_application -> proof_of_work
   eu_residence_document_application -> passport
   eu_residence_document_application -> od1_form
-  od1_form [ label="OD1 form" ]
-  passport_photo [ label="passport photo" ]
+  od1_form [ label="OD1 form\n2019-01-22" style=filled fillcolor=green ]
+  passport_photo [ label="Passport photo" ]
   eu_residence_document_application -> passport_photo
 
   eu_residence_document [ label="EU residence document" ]
   eu_residence_document -> eu_residence_document_application [ color="red" ]
   eu_residence_document -> can_receive_post
 
-  cpr_number_application [ label="application for\nCPR number" ]
+  cpr_number_application [ label="Application for\nCPR number" ]
   cpr_number_application -> eu_residence_document
   cpr_number_application -> proof_of_work
   cpr_number_application -> proof_of_address
@@ -45,13 +43,13 @@ digraph g {
   cpr_number -> cpr_number_application [ color="red" ]
   cpr_number -> can_receive_post
 
-  proof_of_address [ label="proof of address" ]
+  proof_of_address [ label="Proof of address\n2019-01-21" style=filled fillcolor=green ]
   proof_of_address -> place_to_live
 
-  skattekort
+  skattekort [ label="Skattekort" ]
   skattekort -> cpr_number [ style="dotted" ]
 
-  nemid_application [ label="application for\nNemid" ]
+  nemid_application [ label="Application for\nNemid" ]
   nemid_application -> cpr_number
   nemid [ label="Nemid" ]
   nemid -> nemid_application
@@ -63,10 +61,10 @@ digraph g {
   danish_bank_account -> passport
   danish_bank_account -> danish_phone_number
 
-  activated_nemid [ label="activated Nemid" ]
+  activated_nemid [ label="Activated Nemid" ]
   activated_nemid -> nemid
   activated_nemid -> danish_phone_number
-  noglekort [ label="nøglekort" ]
+  noglekort [ label="Nøglekort" ]
   activated_nemid -> noglekort
   noglekort -> nemid_application [ style="dotted" color="red" ]
   noglekort -> can_receive_post [ style="dotted" ]
@@ -76,10 +74,10 @@ digraph g {
   ehic -> nemid
   ehic -> place_to_live
 
-  doctor
+  doctor [ label="Doctor" ]
   doctor -> cpr_number
 
-  get_paid [ label="get paid" ]
+  get_paid [ label="Get paid" ]
   get_paid -> job
   get_paid -> skattekort
   get_paid -> danish_bank_account
@@ -93,8 +91,13 @@ digraph g {
   danish_bank_card -> danish_bank_account [ color="red" ]
   danish_bank_card -> can_receive_post
 
-  spend_lovely_dkk [ label="spend your lovely DKK!" ]
+  spend_lovely_dkk [ label="Spend your lovely DKK!" ]
   spend_lovely_dkk -> get_paid
   spend_lovely_dkk -> danish_bank_card
+
+  mobilepay [ label="Mobilepay" ]
+  mobilepay -> cpr_number
+  mobilepay -> danish_phone_number
+  mobilepay -> danish_bank_account
 
 }
