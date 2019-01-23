@@ -100,4 +100,23 @@ digraph g {
   mobilepay -> danish_phone_number
   mobilepay -> danish_bank_account
 
+  // Det endeligt mål
+  hygge [ label="🇩🇰 😊 Hygge 😊 🇩🇰" ]
+
+  hygge -> helbred
+  helbred [ label="Health" ]
+  helbred -> doctor
+  helbred -> ehic
+  hygge -> penge
+  penge [ label="Money" ]
+  penge -> spend_lovely_dkk
+  penge -> mobilepay
+  hygge -> rejser
+  rejser [ label="Mobility" ]
+  rejser -> pendlerkort
+  rejser -> rejsekort
+  hygge -> faa_ting_gjort
+  faa_ting_gjort [ label="Can get stuff done" ]
+  faa_ting_gjort -> activated_nemid
+  faa_ting_gjort -> danish_lessions
 }
