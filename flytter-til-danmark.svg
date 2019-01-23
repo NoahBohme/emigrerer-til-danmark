@@ -105,7 +105,7 @@
 <!-- eu_residence_document_application -->
 <g id="node10" class="node">
 <title>eu_residence_document_application</title>
-<ellipse fill="none" stroke="#000000" cx="275" cy="-219.0782" rx="105.7427" ry="25.4118"/>
+<ellipse fill="#00ff00" stroke="#000000" cx="275" cy="-219.0782" rx="105.7427" ry="25.4118"/>
 <text text-anchor="middle" x="275" y="-221.8782" font-family="Times,serif" font-size="14.00" fill="#000000">Application for</text>
 <text text-anchor="middle" x="275" y="-207.8782" font-family="Times,serif" font-size="14.00" fill="#000000">EU residence document</text>
 </g>
@@ -156,7 +156,7 @@
 <!-- eu_residence_document -->
 <g id="node13" class="node">
 <title>eu_residence_document</title>
-<ellipse fill="none" stroke="#000000" cx="543" cy="-305.9899" rx="94.655" ry="18"/>
+<ellipse fill="#ffff00" stroke="#000000" cx="543" cy="-305.9899" rx="94.655" ry="18"/>
 <text text-anchor="middle" x="543" y="-301.7899" font-family="Times,serif" font-size="14.00" fill="#000000">EU residence document</text>
 </g>
 <!-- eu_residence_document&#45;&gt;can_receive_post -->

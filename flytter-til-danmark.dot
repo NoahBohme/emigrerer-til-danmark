@@ -20,7 +20,7 @@ digraph g {
   pendlerkort
   pendlerkort -> place_to_live
 
-  eu_residence_document_application [ label="Application for\nEU residence document" ]
+  eu_residence_document_application [ label="Application for\nEU residence document" style=filled fillcolor=green ]
   eu_residence_document_application -> place_to_live
   eu_residence_document_application -> proof_of_work
   eu_residence_document_application -> passport
@@ -29,7 +29,7 @@ digraph g {
   passport_photo [ label="Passport photo\n2019-01-23" style=filled fillcolor=green ]
   eu_residence_document_application -> passport_photo
 
-  eu_residence_document [ label="EU residence document" ]
+  eu_residence_document [ label="EU residence document" style=filled fillcolor=yellow ]
   eu_residence_document -> eu_residence_document_application [ color="red" ]
   eu_residence_document -> can_receive_post
 
