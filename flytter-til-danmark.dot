@@ -102,20 +102,34 @@ digraph g {
 
   // Det endeligt mål
   hygge [ label="🇩🇰 😊 Hygge 😊 🇩🇰" ]
+  // Deliberately vague so as not to imply that (a) hygge has a formula, or
+  // (b) it depends on any of the named things
+  hygge -> magi4 [ style=dashed ]
+  hygge -> magi1
+  magi1 [ label="?" ]
+  magi4 [ label="????" ]
+  magi2 [ label="??" ]
+  magi3 [ label="????" ]
+  magi3 -> magi4
+  magi1 -> magi2
+  magi1 -> magi3 [ style=dashed ]
 
-  hygge -> helbred
+  magi1 -> helbred [ style=dotted ]
+  magi2 -> penge [ style=dotted ]
+
+  magi4 -> helbred [ style=dotted ]
   helbred [ label="Health" ]
   helbred -> doctor
   helbred -> ehic
-  hygge -> penge
+  magi3 -> penge [ style=dotted ]
   penge [ label="Money" ]
   penge -> spend_lovely_dkk
   penge -> mobilepay
-  hygge -> rejser
+  magi2 -> rejser [ style=dotted ]
   rejser [ label="Mobility" ]
   rejser -> pendlerkort
   rejser -> rejsekort
-  hygge -> faa_ting_gjort
+  magi2 -> faa_ting_gjort [ style=dotted ]
   faa_ting_gjort [ label="Can get stuff done" ]
   faa_ting_gjort -> activated_nemid
   faa_ting_gjort -> danish_lessions
