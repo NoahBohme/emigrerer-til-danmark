@@ -17,7 +17,7 @@ digraph g {
   can_receive_post -> place_to_live
   can_receive_post -> name_on_postbox
 
-  pendlerkort
+  pendlerkort [ label="Pendlerkort\n2019-02-05" style=filled fillcolor=green ]
   pendlerkort -> place_to_live
 
   eu_residence_document_application [ label="Application for\nEU residence document\n2019-01-23" style=filled fillcolor=green ]
@@ -33,13 +33,13 @@ digraph g {
   eu_residence_document -> eu_residence_document_application [ color="red" ]
   eu_residence_document -> can_receive_post
 
-  cpr_number_application [ label="Application for\nCPR number" ]
+  cpr_number_application [ label="Application for\nCPR number\n2019-02-06" style=filled fillcolor=green ]
   cpr_number_application -> eu_residence_document
   cpr_number_application -> proof_of_work
   cpr_number_application -> proof_of_address
   cpr_number_application -> passport
 
-  cpr_number [ label="CPR number" ]
+  cpr_number [ label="CPR number\n2019-02-06" style=filled fillcolor=green ]
   cpr_number -> cpr_number_application [ color="red" ]
   cpr_number -> can_receive_post
 
@@ -126,7 +126,7 @@ digraph g {
   penge -> spend_lovely_dkk
   penge -> mobilepay
   magi2 -> rejser [ style=dotted ]
-  rejser [ label="Mobility" ]
+  rejser [ label="Mobility" style=filled fillcolor=green ]
   rejser -> pendlerkort
   rejser -> rejsekort
   magi2 -> faa_ting_gjort [ style=dotted ]
