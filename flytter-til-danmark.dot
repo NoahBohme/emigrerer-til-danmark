@@ -46,7 +46,7 @@ digraph g {
   proof_of_address [ label="Proof of address\n2019-01-21" style=filled fillcolor=green ]
   proof_of_address -> place_to_live
 
-  skattekort [ label="Skattekort" ]
+  skattekort [ label="Skattekort\n2019-02-07" style=filled fillcolor=green ]
   skattekort -> cpr_number [ style="dotted" ]
 
   nemid_application [ label="Application for\nNemid" ]
@@ -54,7 +54,7 @@ digraph g {
   nemid [ label="Nemid" ]
   nemid -> nemid_application
 
-  danish_bank_account [ label="Danish bank account" ]
+  danish_bank_account [ label="Danish bank account\n2019-02-07" style=filled fillcolor=green ]
   danish_bank_account -> cpr_number
   danish_bank_account -> proof_of_work
   danish_bank_account -> nemid [ style="dotted" ]
@@ -69,7 +69,7 @@ digraph g {
   noglekort -> nemid_application [ style="dotted" color="red" ]
   noglekort -> can_receive_post [ style="dotted" ]
 
-  ehic [ label="Danish EHIC" ]
+  ehic [ label="Danish EHIC ('blåt kort')" ]
   ehic -> cpr_number
   ehic -> nemid
   ehic -> place_to_live
