@@ -42,6 +42,9 @@ digraph g {
   cpr_number [ label="CPR number\n2019-02-06" style=filled fillcolor=green ]
   cpr_number -> cpr_number_application [ color="red" ]
   cpr_number -> can_receive_post
+  cpr_card [ label="CPR yellow card\n2019-02-??" style=filled fillcolor=green ]
+  cpr_card -> cpr_number
+  cpr_card -> can_receive_post
 
   proof_of_address [ label="Proof of address\n2019-01-21" style=filled fillcolor=green ]
   proof_of_address -> place_to_live
@@ -49,45 +52,48 @@ digraph g {
   skattekort [ label="Skattekort\n2019-02-07" style=filled fillcolor=green ]
   skattekort -> cpr_number [ style="dotted" ]
 
-  nemid_application [ label="Application for\nNemid" ]
+  nemid_application [ label="Application for\nNemid\n2019-02-06" style=filled fillcolor=green ]
   nemid_application -> cpr_number
-  nemid [ label="Nemid" ]
-  nemid -> nemid_application
+  nemid_userid [ label="NemID user ID\n2019-02-06" style=filled fillcolor=green ]
+  nemid_userid -> nemid_application
 
   danish_bank_account [ label="Danish bank account\n2019-02-07" style=filled fillcolor=green ]
   danish_bank_account -> cpr_number
   danish_bank_account -> proof_of_work
-  danish_bank_account -> nemid [ style="dotted" ]
   danish_bank_account -> passport
   danish_bank_account -> danish_phone_number
 
   activated_nemid [ label="Activated Nemid" ]
-  activated_nemid -> nemid
+  activated_nemid -> nemid_userid
   activated_nemid -> danish_phone_number
-  noglekort [ label="Nøglekort" ]
+  noglekort [ label="Nøglekort\n2019-02-06\nog 2019-02-07" style=filled fillcolor=green ]
+  midlertidlig_nemid_adgangskode [ label="Temporary NemID password" style=filled fillcolor=yellow ]
   activated_nemid -> noglekort
+  activated_nemid -> midlertidlig_nemid_adgangskode
   noglekort -> nemid_application [ style="dotted" color="red" ]
+  midlertidlig_nemid_adgangskode -> nemid_application [ style="dotted" color="red" ]
   noglekort -> can_receive_post [ style="dotted" ]
+  midlertidlig_nemid_adgangskode -> can_receive_post [ style="dotted" ]
 
   ehic [ label="Danish EHIC ('blåt kort')" ]
   ehic -> cpr_number
-  ehic -> nemid
+  ehic -> activated_nemid
   ehic -> place_to_live
 
-  doctor [ label="Doctor" ]
+  doctor [ label="Doctor\n2019-02-06" style=filled fillcolor=green ]
   doctor -> cpr_number
 
   get_paid [ label="Get paid" ]
   get_paid -> job
   get_paid -> skattekort
   get_paid -> danish_bank_account
-  get_paid -> nemid
+  get_paid -> activated_nemid
 
   danish_lessions [ label="Danish lessons" ]
   danish_lessions -> cpr_number
   danish_lessions -> danish_bank_card
 
-  danish_bank_card [ label="Danish bank card" ]
+  danish_bank_card [ label="Danish bank card\n2019-02-16" style=filled fillcolor=green ]
   danish_bank_card -> danish_bank_account [ color="red" ]
   danish_bank_card -> can_receive_post
 
