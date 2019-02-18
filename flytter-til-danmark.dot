@@ -101,7 +101,7 @@ digraph g {
   spend_lovely_dkk -> get_paid
   spend_lovely_dkk -> danish_bank_card
 
-  mobilepay [ label="Mobilepay" ]
+  mobilepay [ label="Mobilepay\n2019-02-18" style=filled fillcolor=green ]
   mobilepay -> cpr_number
   mobilepay -> danish_phone_number
   mobilepay -> danish_bank_account
