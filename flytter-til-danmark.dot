@@ -67,7 +67,7 @@ digraph g {
   activated_nemid -> nemid_userid
   activated_nemid -> danish_phone_number
   noglekort [ label="Nøglekort\n2019-02-06\nog 2019-02-07" style=filled fillcolor=green ]
-  midlertidlig_nemid_adgangskode [ label="Temporary NemID password" style=filled fillcolor=green ]
+  midlertidlig_nemid_adgangskode [ label="Temporary NemID password\n2019-02-19" style=filled fillcolor=green ]
   activated_nemid -> noglekort
   activated_nemid -> midlertidlig_nemid_adgangskode
   noglekort -> nemid_application [ style="dotted" color="red" ]
