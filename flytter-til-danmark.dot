@@ -63,11 +63,11 @@ digraph g {
   danish_bank_account -> passport
   danish_bank_account -> danish_phone_number
 
-  activated_nemid [ label="Activated Nemid" ]
+  activated_nemid [ label="Activated Nemid\n2019-02-19" style=filled fillcolor=green ]
   activated_nemid -> nemid_userid
   activated_nemid -> danish_phone_number
   noglekort [ label="Nøglekort\n2019-02-06\nog 2019-02-07" style=filled fillcolor=green ]
-  midlertidlig_nemid_adgangskode [ label="Temporary NemID password" style=filled fillcolor=yellow ]
+  midlertidlig_nemid_adgangskode [ label="Temporary NemID password" style=filled fillcolor=green ]
   activated_nemid -> noglekort
   activated_nemid -> midlertidlig_nemid_adgangskode
   noglekort -> nemid_application [ style="dotted" color="red" ]
@@ -75,7 +75,7 @@ digraph g {
   noglekort -> can_receive_post [ style="dotted" ]
   midlertidlig_nemid_adgangskode -> can_receive_post [ style="dotted" ]
 
-  ehic [ label="Danish EHIC ('blåt kort')" ]
+  ehic [ label="Danish EHIC ('blåt kort')" style=filled fillcolor=yellow ]
   ehic -> cpr_number
   ehic -> activated_nemid
   ehic -> place_to_live
