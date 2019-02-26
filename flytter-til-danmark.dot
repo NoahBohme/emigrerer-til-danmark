@@ -75,7 +75,7 @@ digraph g {
   noglekort -> can_receive_post [ style="dotted" ]
   midlertidlig_nemid_adgangskode -> can_receive_post [ style="dotted" ]
 
-  ehic [ label="Danish EHIC ('blåt kort')" style=filled fillcolor=yellow ]
+  ehic [ label="Danish EHIC ('blåt kort')\n2019-02-26" style=filled fillcolor=green ]
   ehic -> cpr_number
   ehic -> activated_nemid
   ehic -> place_to_live
