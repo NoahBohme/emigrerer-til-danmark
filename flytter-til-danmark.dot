@@ -83,7 +83,7 @@ digraph g {
   doctor [ label="Doctor\n2019-02-06" style=filled fillcolor=green ]
   doctor -> cpr_number
 
-  get_paid [ label="Get paid" ]
+  get_paid [ label="Get paid\n2019-02-28" style=filled fillcolor=green ]
   get_paid -> job
   get_paid -> skattekort
   get_paid -> danish_bank_account
@@ -97,7 +97,7 @@ digraph g {
   danish_bank_card -> danish_bank_account [ color="red" ]
   danish_bank_card -> can_receive_post
 
-  spend_lovely_dkk [ label="Spend your lovely DKK!" ]
+  spend_lovely_dkk [ label="Spend your lovely DKK!\n2019-02-28" style=filled fillcolor=green ]
   spend_lovely_dkk -> get_paid
   spend_lovely_dkk -> danish_bank_card
 
@@ -124,11 +124,11 @@ digraph g {
   magi2 -> penge [ style=dotted ]
 
   magi4 -> helbred [ style=dotted ]
-  helbred [ label="Health" ]
+  helbred [ label="Health\n2019-02-28" style=filled fillcolor=green ]
   helbred -> doctor
   helbred -> ehic
   magi3 -> penge [ style=dotted ]
-  penge [ label="Money" ]
+  penge [ label="Money\n2019-02-28" style=filled fillcolor=green ]
   penge -> spend_lovely_dkk
   penge -> mobilepay
   magi2 -> rejser [ style=dotted ]
