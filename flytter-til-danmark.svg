@@ -260,15 +260,15 @@
 <!-- skattekort -->
 <g id="node18" class="node">
 <title>skattekort</title>
-<ellipse fill="#00ff00" stroke="#000000" cx="762.3736" cy="-819.7443" rx="57.5098" ry="25.4118"/>
-<text text-anchor="middle" x="762.3736" y="-822.5443" font-family="Times,serif" font-size="14.00" fill="#000000">Skattekort</text>
-<text text-anchor="middle" x="762.3736" y="-808.5443" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;07</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="777.3736" cy="-819.7443" rx="57.5098" ry="25.4118"/>
+<text text-anchor="middle" x="777.3736" y="-822.5443" font-family="Times,serif" font-size="14.00" fill="#000000">Skattekort</text>
+<text text-anchor="middle" x="777.3736" y="-808.5443" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;07</text>
 </g>
 <!-- skattekort&#45;&gt;cpr_number -->
 <g id="edge22" class="edge">
 <title>skattekort&#45;&gt;cpr_number</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M742.0703,-795.6768C734.3033,-784.9476 726.3577,-771.7131 722.3736,-758.2885 713.4324,-728.1603 717.1788,-718.5724 722.3736,-687.5778 730.3885,-639.7575 750.3877,-587.3412 764.6569,-553.9525"/>
-<polygon fill="#000000" stroke="#000000" points="767.9263,-555.2105 768.698,-544.6438 761.5052,-552.423 767.9263,-555.2105"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M749.8875,-797.2195C739.1405,-786.6604 728.0469,-773.1347 722.3736,-758.2885 695.3099,-687.4655 733.7414,-599.8987 759.7985,-552.9354"/>
+<polygon fill="#000000" stroke="#000000" points="762.9214,-554.5241 764.8219,-544.1011 756.8363,-551.064 762.9214,-554.5241"/>
 </g>
 <!-- nemid_application -->
 <g id="node19" class="node">
@@ -331,21 +331,21 @@
 <!-- activated_nemid -->
 <g id="node22" class="node">
 <title>activated_nemid</title>
-<ellipse fill="#00ff00" stroke="#000000" cx="917.3736" cy="-819.7443" rx="79.427" ry="25.4118"/>
-<text text-anchor="middle" x="917.3736" y="-822.5443" font-family="Times,serif" font-size="14.00" fill="#000000">Activated Nemid</text>
-<text text-anchor="middle" x="917.3736" y="-808.5443" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;19</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="932.3736" cy="-819.7443" rx="79.427" ry="25.4118"/>
+<text text-anchor="middle" x="932.3736" y="-822.5443" font-family="Times,serif" font-size="14.00" fill="#000000">Activated Nemid</text>
+<text text-anchor="middle" x="932.3736" y="-808.5443" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;19</text>
 </g>
 <!-- activated_nemid&#45;&gt;danish_phone_number -->
 <g id="edge30" class="edge">
 <title>activated_nemid&#45;&gt;danish_phone_number</title>
-<path fill="none" stroke="#000000" d="M861.4615,-801.6298C850.8966,-798.762 839.8678,-796.1373 829.3736,-794.2885 770.6984,-783.9513 335.0635,-801.8083 294.3736,-758.2885 241.6434,-701.8908 289.7136,-604.8868 321.8763,-553.5618"/>
-<polygon fill="#000000" stroke="#000000" points="325.0234,-555.1376 327.4723,-544.8296 319.1298,-551.3607 325.0234,-555.1376"/>
+<path fill="none" stroke="#000000" d="M876.4642,-801.6142C865.8991,-798.7478 854.8695,-796.1277 844.3736,-794.2885 784.0509,-783.7178 336.2401,-802.9849 294.3736,-758.2885 241.4552,-701.793 289.9337,-604.4116 322.1132,-553.1758"/>
+<polygon fill="#000000" stroke="#000000" points="325.2487,-554.7704 327.7077,-544.4649 319.3588,-550.9876 325.2487,-554.7704"/>
 </g>
 <!-- activated_nemid&#45;&gt;nemid_userid -->
 <g id="edge29" class="edge">
 <title>activated_nemid&#45;&gt;nemid_userid</title>
-<path fill="none" stroke="#000000" d="M889.4411,-795.8134C874.3886,-782.9175 855.6652,-766.8764 839.6192,-753.1292"/>
-<polygon fill="#000000" stroke="#000000" points="841.8562,-750.4369 831.9849,-746.5887 837.3019,-755.7528 841.8562,-750.4369"/>
+<path fill="none" stroke="#000000" d="M901.3884,-796.309C883.8578,-783.05 861.7763,-766.3489 843.1101,-752.231"/>
+<polygon fill="#000000" stroke="#000000" points="845.1605,-749.3934 835.0735,-746.1526 840.9379,-754.9764 845.1605,-749.3934"/>
 </g>
 <!-- noglekort -->
 <g id="node23" class="node">
@@ -358,8 +358,8 @@
 <!-- activated_nemid&#45;&gt;noglekort -->
 <g id="edge31" class="edge">
 <title>activated_nemid&#45;&gt;noglekort</title>
-<path fill="none" stroke="#000000" d="M984.2544,-805.9232C1033.1324,-795.0454 1100.6764,-778.3898 1158.3736,-758.2885 1164.4264,-756.1797 1170.6555,-753.7921 1176.834,-751.2771"/>
-<polygon fill="#000000" stroke="#000000" points="1178.5973,-754.3332 1186.4689,-747.2419 1175.8931,-747.8766 1178.5973,-754.3332"/>
+<path fill="none" stroke="#000000" d="M997,-805.0034C1042.6493,-793.9072 1104.9587,-777.3732 1158.3736,-758.2885 1164.3167,-756.1651 1170.4361,-753.7868 1176.514,-751.2944"/>
+<polygon fill="#000000" stroke="#000000" points="1178.1391,-754.4079 1185.9995,-747.304 1175.4247,-747.9555 1178.1391,-754.4079"/>
 </g>
 <!-- midlertidlig_nemid_adgangskode -->
 <g id="node24" class="node">
@@ -371,8 +371,8 @@
 <!-- activated_nemid&#45;&gt;midlertidlig_nemid_adgangskode -->
 <g id="edge32" class="edge">
 <title>activated_nemid&#45;&gt;midlertidlig_nemid_adgangskode</title>
-<path fill="none" stroke="#000000" d="M943.5987,-795.5645C956.9242,-783.2783 973.2924,-768.1866 987.6496,-754.9491"/>
-<polygon fill="#000000" stroke="#000000" points="990.4074,-757.1671 995.3868,-747.8153 985.6624,-752.0207 990.4074,-757.1671"/>
+<path fill="none" stroke="#000000" d="M955.0844,-795.3148C966.3153,-783.234 980.0242,-768.4876 992.1307,-755.4649"/>
+<polygon fill="#000000" stroke="#000000" points="994.7974,-757.7368 999.0428,-748.0297 989.6706,-752.9707 994.7974,-757.7368"/>
 </g>
 <!-- noglekort&#45;&gt;can_receive_post -->
 <g id="edge35" class="edge">
@@ -401,27 +401,27 @@
 <!-- ehic -->
 <g id="node25" class="node">
 <title>ehic</title>
-<ellipse fill="#00ff00" stroke="#000000" cx="1027.3736" cy="-906.656" rx="110.6617" ry="25.4118"/>
-<text text-anchor="middle" x="1027.3736" y="-909.456" font-family="Times,serif" font-size="14.00" fill="#000000">Danish EHIC (&#39;blåt kort&#39;)</text>
-<text text-anchor="middle" x="1027.3736" y="-895.456" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;26</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="1038.3736" cy="-906.656" rx="110.6617" ry="25.4118"/>
+<text text-anchor="middle" x="1038.3736" y="-909.456" font-family="Times,serif" font-size="14.00" fill="#000000">Danish EHIC (&#39;blåt kort&#39;)</text>
+<text text-anchor="middle" x="1038.3736" y="-895.456" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;26</text>
 </g>
 <!-- ehic&#45;&gt;place_to_live -->
 <g id="edge39" class="edge">
 <title>ehic&#45;&gt;place_to_live</title>
-<path fill="none" stroke="#000000" d="M1104.9038,-888.4408C1168.6804,-873.158 1250.8571,-852.6643 1265.3736,-845.2001 1340.6439,-806.4975 1411.3736,-807.5706 1411.3736,-722.9331 1411.3736,-722.9331 1411.3736,-722.9331 1411.3736,-228.9777 1411.3736,-93.9179 1221.7015,-48.0607 1111.4268,-32.8128"/>
+<path fill="none" stroke="#000000" d="M1117.5937,-888.7572C1171.6506,-875.8386 1237.898,-858.4162 1263.3736,-845.2001 1339.1098,-805.9103 1411.3736,-808.254 1411.3736,-722.9331 1411.3736,-722.9331 1411.3736,-722.9331 1411.3736,-228.9777 1411.3736,-93.9179 1221.7015,-48.0607 1111.4268,-32.8128"/>
 <polygon fill="#000000" stroke="#000000" points="1111.7132,-29.3202 1101.3393,-31.4725 1110.7911,-36.2592 1111.7132,-29.3202"/>
 </g>
 <!-- ehic&#45;&gt;cpr_number -->
 <g id="edge37" class="edge">
 <title>ehic&#45;&gt;cpr_number</title>
-<path fill="none" stroke="#000000" d="M1096.6457,-886.6611C1204.5808,-852.1735 1392.9702,-776.576 1316.3736,-687.5778 1281.3372,-646.8686 1126.902,-672.3559 1077.3736,-651.5778 1029.1656,-631.3536 1029.9965,-604.5177 983.3736,-580.8671 939.9908,-558.8601 887.3236,-543.2004 846.5073,-533.1976"/>
+<path fill="none" stroke="#000000" d="M1105.2472,-886.1888C1209.4207,-851.0137 1391.1319,-774.44 1316.3736,-687.5778 1281.3372,-646.8686 1126.902,-672.3559 1077.3736,-651.5778 1029.1656,-631.3536 1029.9965,-604.5177 983.3736,-580.8671 939.9908,-558.8601 887.3236,-543.2004 846.5073,-533.1976"/>
 <polygon fill="#000000" stroke="#000000" points="847.205,-529.7658 836.6646,-530.8384 845.5733,-536.573 847.205,-529.7658"/>
 </g>
 <!-- ehic&#45;&gt;activated_nemid -->
 <g id="edge38" class="edge">
 <title>ehic&#45;&gt;activated_nemid</title>
-<path fill="none" stroke="#000000" d="M996.1463,-881.9831C983.5222,-872.0087 968.8291,-860.3996 955.5756,-849.9279"/>
-<polygon fill="#000000" stroke="#000000" points="957.557,-847.0328 947.5407,-843.5795 953.2173,-852.5253 957.557,-847.0328"/>
+<path fill="none" stroke="#000000" d="M1008.2818,-881.9831C996.1168,-872.0087 981.958,-860.3996 969.1864,-849.9279"/>
+<polygon fill="#000000" stroke="#000000" points="971.3959,-847.2134 961.4437,-843.5795 966.9576,-852.6265 971.3959,-847.2134"/>
 </g>
 <!-- doctor -->
 <g id="node26" class="node">
@@ -452,8 +452,8 @@
 <!-- get_paid&#45;&gt;skattekort -->
 <g id="edge42" class="edge">
 <title>get_paid&#45;&gt;skattekort</title>
-<path fill="none" stroke="#000000" d="M499.8869,-895.7172C550.6488,-884.67 629.4822,-866.2624 696.3736,-845.2001 700.8946,-843.7766 705.5524,-842.2038 710.2031,-840.559"/>
-<polygon fill="#000000" stroke="#000000" points="711.4922,-843.8145 719.6931,-837.1065 709.0991,-837.2362 711.4922,-843.8145"/>
+<path fill="none" stroke="#000000" d="M499.0294,-895.4458C563.8795,-881.2224 671.3575,-857.1122 710.3736,-845.2001 715.2326,-843.7167 720.2458,-842.0589 725.2405,-840.3201"/>
+<polygon fill="#000000" stroke="#000000" points="726.5453,-843.5706 734.7775,-836.9012 724.183,-836.9812 726.5453,-843.5706"/>
 </g>
 <!-- get_paid&#45;&gt;danish_bank_account -->
 <g id="edge43" class="edge">
@@ -464,20 +464,21 @@
 <!-- get_paid&#45;&gt;activated_nemid -->
 <g id="edge44" class="edge">
 <title>get_paid&#45;&gt;activated_nemid</title>
-<path fill="none" stroke="#000000" d="M499.2372,-895.3473C521.6676,-890.6502 548.2543,-885.3413 572.3736,-881.2001 686.0477,-861.683 716.5792,-869.2861 829.3736,-845.2001 836.3241,-843.716 843.5295,-841.9743 850.689,-840.1102"/>
-<polygon fill="#000000" stroke="#000000" points="851.6445,-843.4777 860.3954,-837.5051 849.8299,-836.717 851.6445,-843.4777"/>
+<path fill="none" stroke="#000000" d="M498.4482,-894.7699C519.4195,-890.1404 543.9885,-885.0372 566.3736,-881.2001 689.17,-860.1518 722.3998,-870.5842 844.3736,-845.2001 851.3317,-843.7521 858.5421,-842.0339 865.7046,-840.184"/>
+<polygon fill="#000000" stroke="#000000" points="866.6545,-843.5531 875.4139,-837.5928 864.8495,-836.7898 866.6545,-843.5531"/>
 </g>
 <!-- danish_lessions -->
 <g id="node28" class="node">
 <title>danish_lessions</title>
-<ellipse fill="none" stroke="#000000" cx="624.3736" cy="-819.7443" rx="62.8431" ry="18"/>
-<text text-anchor="middle" x="624.3736" y="-815.5443" font-family="Times,serif" font-size="14.00" fill="#000000">Danish lessons</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="631.3736" cy="-819.7443" rx="70.3704" ry="25.4118"/>
+<text text-anchor="middle" x="631.3736" y="-822.5443" font-family="Times,serif" font-size="14.00" fill="#000000">Danish lessons</text>
+<text text-anchor="middle" x="631.3736" y="-808.5443" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;03&#45;12</text>
 </g>
 <!-- danish_lessions&#45;&gt;cpr_number -->
 <g id="edge45" class="edge">
 <title>danish_lessions&#45;&gt;cpr_number</title>
-<path fill="none" stroke="#000000" d="M631.3863,-801.5477C650.2827,-752.8543 702.509,-620.5819 727.3736,-580.8671 733.9156,-570.4181 742.1772,-559.9324 750.2187,-550.6558"/>
-<polygon fill="#000000" stroke="#000000" points="752.8434,-552.9712 756.8792,-543.1751 747.6153,-548.3163 752.8434,-552.9712"/>
+<path fill="none" stroke="#000000" d="M638.9809,-794.1665C655.2298,-740.3936 693.7639,-617.5651 717.3736,-580.8671 724.752,-569.3985 734.643,-558.4569 744.3979,-549.0689"/>
+<polygon fill="#000000" stroke="#000000" points="746.8393,-551.5781 751.7871,-542.2095 742.0769,-546.4478 746.8393,-551.5781"/>
 </g>
 <!-- danish_bank_card -->
 <g id="node29" class="node">
@@ -489,8 +490,8 @@
 <!-- danish_lessions&#45;&gt;danish_bank_card -->
 <g id="edge46" class="edge">
 <title>danish_lessions&#45;&gt;danish_bank_card</title>
-<path fill="none" stroke="#000000" d="M611.9014,-801.9876C602.9078,-789.1836 590.5004,-771.5191 579.6946,-756.1351"/>
-<polygon fill="#000000" stroke="#000000" points="582.5,-754.0397 573.8881,-747.8683 576.7718,-758.0632 582.5,-754.0397"/>
+<path fill="none" stroke="#000000" d="M612.2539,-795.0643C603.0688,-783.2079 591.9291,-768.8287 582.0202,-756.0381"/>
+<polygon fill="#000000" stroke="#000000" points="584.6104,-753.6665 575.7192,-747.9047 579.0767,-757.9535 584.6104,-753.6665"/>
 </g>
 <!-- danish_bank_card&#45;&gt;can_receive_post -->
 <g id="edge48" class="edge">
@@ -507,21 +508,21 @@
 <!-- spend_lovely_dkk -->
 <g id="node30" class="node">
 <title>spend_lovely_dkk</title>
-<ellipse fill="#00ff00" stroke="#000000" cx="517.3736" cy="-993.5677" rx="111.2416" ry="25.4118"/>
-<text text-anchor="middle" x="517.3736" y="-996.3677" font-family="Times,serif" font-size="14.00" fill="#000000">Spend your lovely DKK!</text>
-<text text-anchor="middle" x="517.3736" y="-982.3677" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;28</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="520.3736" cy="-993.5677" rx="111.2416" ry="25.4118"/>
+<text text-anchor="middle" x="520.3736" y="-996.3677" font-family="Times,serif" font-size="14.00" fill="#000000">Spend your lovely DKK!</text>
+<text text-anchor="middle" x="520.3736" y="-982.3677" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;28</text>
 </g>
 <!-- spend_lovely_dkk&#45;&gt;get_paid -->
 <g id="edge49" class="edge">
 <title>spend_lovely_dkk&#45;&gt;get_paid</title>
-<path fill="none" stroke="#000000" d="M497.1267,-968.4292C489.682,-959.1859 481.1472,-948.5891 473.2729,-938.8124"/>
-<polygon fill="#000000" stroke="#000000" points="475.8507,-936.4331 466.8522,-930.8405 470.399,-940.824 475.8507,-936.4331"/>
+<path fill="none" stroke="#000000" d="M499.259,-968.4292C491.3511,-959.0143 482.2639,-948.1953 473.9264,-938.2689"/>
+<polygon fill="#000000" stroke="#000000" points="476.5491,-935.9496 467.4374,-930.5433 471.189,-940.4517 476.5491,-935.9496"/>
 </g>
 <!-- spend_lovely_dkk&#45;&gt;danish_bank_card -->
 <g id="edge50" class="edge">
 <title>spend_lovely_dkk&#45;&gt;danish_bank_card</title>
-<path fill="none" stroke="#000000" d="M521.0427,-968.107C528.0257,-919.6494 543.2418,-814.0597 551.2347,-758.5941"/>
-<polygon fill="#000000" stroke="#000000" points="554.7238,-758.9203 552.686,-748.5233 547.7953,-757.9218 554.7238,-758.9203"/>
+<path fill="none" stroke="#000000" d="M523.7604,-968.107C530.2063,-919.6494 544.2519,-814.0597 551.63,-758.5941"/>
+<polygon fill="#000000" stroke="#000000" points="555.1204,-758.8975 552.9696,-748.5233 548.1815,-757.9744 555.1204,-758.8975"/>
 </g>
 <!-- mobilepay -->
 <g id="node31" class="node">
@@ -551,88 +552,88 @@
 <!-- hygge -->
 <g id="node32" class="node">
 <title>hygge</title>
-<ellipse fill="none" stroke="#000000" cx="733.3736" cy="-1307.8334" rx="101.1913" ry="21.7969"/>
-<text text-anchor="middle" x="733.3736" y="-1308.1178" font-family="Times,serif" font-size="14.00" fill="#000000">🇩🇰 😊 Hygge 😊 🇩🇰</text>
+<ellipse fill="none" stroke="#000000" cx="734.3736" cy="-1307.8334" rx="101.1913" ry="21.7969"/>
+<text text-anchor="middle" x="734.3736" y="-1308.1178" font-family="Times,serif" font-size="14.00" fill="#000000">🇩🇰 😊 Hygge 😊 🇩🇰</text>
 </g>
 <!-- magi4 -->
 <g id="node33" class="node">
 <title>magi4</title>
-<ellipse fill="none" stroke="#000000" cx="793.3736" cy="-1080.4794" rx="27" ry="18"/>
-<text text-anchor="middle" x="793.3736" y="-1076.2794" font-family="Times,serif" font-size="14.00" fill="#000000">????</text>
+<ellipse fill="none" stroke="#000000" cx="794.3736" cy="-1080.4794" rx="27" ry="18"/>
+<text text-anchor="middle" x="794.3736" y="-1076.2794" font-family="Times,serif" font-size="14.00" fill="#000000">????</text>
 </g>
 <!-- hygge&#45;&gt;magi4 -->
 <g id="edge54" class="edge">
 <title>hygge&#45;&gt;magi4</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M739.2359,-1285.6198C750.2606,-1243.8448 774.0523,-1153.6926 786.0866,-1108.0919"/>
-<polygon fill="#000000" stroke="#000000" points="789.5055,-1108.8527 788.6732,-1098.2906 782.7373,-1107.0664 789.5055,-1108.8527"/>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M740.2359,-1285.6198C751.2606,-1243.8448 775.0523,-1153.6926 787.0866,-1108.0919"/>
+<polygon fill="#000000" stroke="#000000" points="790.5055,-1108.8527 789.6732,-1098.2906 783.7373,-1107.0664 790.5055,-1108.8527"/>
 </g>
 <!-- magi1 -->
 <g id="node34" class="node">
 <title>magi1</title>
-<ellipse fill="none" stroke="#000000" cx="706.3736" cy="-1231.9352" rx="27" ry="18"/>
-<text text-anchor="middle" x="706.3736" y="-1227.7352" font-family="Times,serif" font-size="14.00" fill="#000000">?</text>
+<ellipse fill="none" stroke="#000000" cx="707.3736" cy="-1231.9352" rx="27" ry="18"/>
+<text text-anchor="middle" x="707.3736" y="-1227.7352" font-family="Times,serif" font-size="14.00" fill="#000000">?</text>
 </g>
 <!-- hygge&#45;&gt;magi1 -->
 <g id="edge55" class="edge">
 <title>hygge&#45;&gt;magi1</title>
-<path fill="none" stroke="#000000" d="M725.5641,-1285.8805C722.5768,-1277.4829 719.1343,-1267.806 715.9971,-1258.9871"/>
-<polygon fill="#000000" stroke="#000000" points="719.2745,-1257.7572 712.6252,-1249.5087 712.6794,-1260.1034 719.2745,-1257.7572"/>
+<path fill="none" stroke="#000000" d="M726.5641,-1285.8805C723.5768,-1277.4829 720.1343,-1267.806 716.9971,-1258.9871"/>
+<polygon fill="#000000" stroke="#000000" points="720.2745,-1257.7572 713.6252,-1249.5087 713.6794,-1260.1034 720.2745,-1257.7572"/>
 </g>
 <!-- helbred -->
 <g id="node37" class="node">
 <title>helbred</title>
-<ellipse fill="#00ff00" stroke="#000000" cx="869.3736" cy="-993.5677" rx="57.5098" ry="25.4118"/>
-<text text-anchor="middle" x="869.3736" y="-996.3677" font-family="Times,serif" font-size="14.00" fill="#000000">Health</text>
-<text text-anchor="middle" x="869.3736" y="-982.3677" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;28</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="877.3736" cy="-993.5677" rx="57.5098" ry="25.4118"/>
+<text text-anchor="middle" x="877.3736" y="-996.3677" font-family="Times,serif" font-size="14.00" fill="#000000">Health</text>
+<text text-anchor="middle" x="877.3736" y="-982.3677" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;28</text>
 </g>
 <!-- magi4&#45;&gt;helbred -->
 <g id="edge61" class="edge">
 <title>magi4&#45;&gt;helbred</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M807.3132,-1064.5384C816.9136,-1053.5597 829.9945,-1038.6007 841.672,-1025.2466"/>
-<polygon fill="#000000" stroke="#000000" points="844.4005,-1027.4434 848.3485,-1017.6116 839.131,-1022.8354 844.4005,-1027.4434"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M809.2124,-1064.9413C819.9136,-1053.7357 834.7164,-1038.2353 847.7936,-1024.5418"/>
+<polygon fill="#000000" stroke="#000000" points="850.469,-1026.8081 854.8442,-1017.1589 845.4066,-1021.9736 850.469,-1026.8081"/>
 </g>
 <!-- magi2 -->
 <g id="node35" class="node">
 <title>magi2</title>
-<ellipse fill="none" stroke="#000000" cx="564.3736" cy="-1159.9352" rx="27" ry="18"/>
-<text text-anchor="middle" x="564.3736" y="-1155.7352" font-family="Times,serif" font-size="14.00" fill="#000000">??</text>
+<ellipse fill="none" stroke="#000000" cx="566.3736" cy="-1159.9352" rx="27" ry="18"/>
+<text text-anchor="middle" x="566.3736" y="-1155.7352" font-family="Times,serif" font-size="14.00" fill="#000000">??</text>
 </g>
 <!-- magi1&#45;&gt;magi2 -->
 <g id="edge57" class="edge">
 <title>magi1&#45;&gt;magi2</title>
-<path fill="none" stroke="#000000" d="M684.8069,-1221C660.9322,-1208.8945 622.253,-1189.2825 595.1887,-1175.5597"/>
-<polygon fill="#000000" stroke="#000000" points="596.6452,-1172.3741 586.1434,-1170.9734 593.4795,-1178.6174 596.6452,-1172.3741"/>
+<path fill="none" stroke="#000000" d="M685.6514,-1220.843C661.8804,-1208.7046 623.5976,-1189.1559 596.8331,-1175.489"/>
+<polygon fill="#000000" stroke="#000000" points="598.387,-1172.3526 587.8892,-1170.9219 595.2035,-1178.5868 598.387,-1172.3526"/>
 </g>
 <!-- magi3 -->
 <g id="node36" class="node">
 <title>magi3</title>
-<ellipse fill="none" stroke="#000000" cx="683.3736" cy="-1159.9352" rx="27" ry="18"/>
-<text text-anchor="middle" x="683.3736" y="-1155.7352" font-family="Times,serif" font-size="14.00" fill="#000000">????</text>
+<ellipse fill="none" stroke="#000000" cx="684.3736" cy="-1159.9352" rx="27" ry="18"/>
+<text text-anchor="middle" x="684.3736" y="-1155.7352" font-family="Times,serif" font-size="14.00" fill="#000000">????</text>
 </g>
 <!-- magi1&#45;&gt;magi3 -->
 <g id="edge58" class="edge">
 <title>magi1&#45;&gt;magi3</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M700.6883,-1214.1375C698.1173,-1206.0893 695.0202,-1196.394 692.1605,-1187.4419"/>
-<polygon fill="#000000" stroke="#000000" points="695.4504,-1186.2385 689.0734,-1177.7778 688.7824,-1188.3686 695.4504,-1186.2385"/>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M701.6883,-1214.1375C699.1173,-1206.0893 696.0202,-1196.394 693.1605,-1187.4419"/>
+<polygon fill="#000000" stroke="#000000" points="696.4504,-1186.2385 690.0734,-1177.7778 689.7824,-1188.3686 696.4504,-1186.2385"/>
 </g>
 <!-- magi1&#45;&gt;helbred -->
 <g id="edge59" class="edge">
 <title>magi1&#45;&gt;helbred</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M710.7232,-1213.9554C721.1085,-1171.5103 747.239,-1067.6901 757.3736,-1055.0235 772.0333,-1036.7013 793.7049,-1023.027 814.0889,-1013.2882"/>
-<polygon fill="#000000" stroke="#000000" points="815.6774,-1016.4109 823.3342,-1009.088 812.782,-1010.0377 815.6774,-1016.4109"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M711.7029,-1213.9389C722.0429,-1171.4571 748.0806,-1067.5617 758.3736,-1055.0235 774.3815,-1035.5241 798.1962,-1021.5141 820.3247,-1011.8432"/>
+<polygon fill="#000000" stroke="#000000" points="821.7835,-1015.0273 829.6775,-1007.9608 819.0997,-1008.5621 821.7835,-1015.0273"/>
 </g>
 <!-- penge -->
 <g id="node38" class="node">
 <title>penge</title>
-<ellipse fill="#00ff00" stroke="#000000" cx="540.3736" cy="-1080.4794" rx="57.5098" ry="25.4118"/>
-<text text-anchor="middle" x="540.3736" y="-1083.2794" font-family="Times,serif" font-size="14.00" fill="#000000">Money</text>
-<text text-anchor="middle" x="540.3736" y="-1069.2794" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;28</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="543.3736" cy="-1080.4794" rx="57.5098" ry="25.4118"/>
+<text text-anchor="middle" x="543.3736" y="-1083.2794" font-family="Times,serif" font-size="14.00" fill="#000000">Money</text>
+<text text-anchor="middle" x="543.3736" y="-1069.2794" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;02&#45;28</text>
 </g>
 <!-- magi2&#45;&gt;penge -->
 <g id="edge60" class="edge">
 <title>magi2&#45;&gt;penge</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M558.9277,-1141.9054C556.5714,-1134.1045 553.7287,-1124.6935 550.9844,-1115.6078"/>
-<polygon fill="#000000" stroke="#000000" points="554.3147,-1114.5289 548.0726,-1105.9681 547.6137,-1116.553 554.3147,-1114.5289"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M561.1546,-1141.9054C558.8965,-1134.1045 556.1723,-1124.6935 553.5422,-1115.6078"/>
+<polygon fill="#000000" stroke="#000000" points="556.8944,-1114.6005 550.7518,-1105.9681 550.1705,-1116.5469 556.8944,-1114.6005"/>
 </g>
 <!-- rejser -->
 <g id="node39" class="node">
@@ -643,56 +644,57 @@
 <!-- magi2&#45;&gt;rejser -->
 <g id="edge67" class="edge">
 <title>magi2&#45;&gt;rejser</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M538.2308,-1154.844C470.8125,-1141.7147 290.3056,-1106.5619 203.833,-1089.7218"/>
-<polygon fill="#000000" stroke="#000000" points="204.5014,-1086.2863 194.0167,-1087.8102 203.1633,-1093.1572 204.5014,-1086.2863"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M540.4153,-1154.9046C472.8551,-1141.8118 290.7807,-1106.5268 203.8395,-1089.678"/>
+<polygon fill="#000000" stroke="#000000" points="204.4561,-1086.2324 193.9728,-1087.7659 203.1243,-1093.1046 204.4561,-1086.2324"/>
 </g>
 <!-- faa_ting_gjort -->
 <g id="node40" class="node">
 <title>faa_ting_gjort</title>
-<ellipse fill="none" stroke="#000000" cx="656.3736" cy="-906.656" rx="75.0675" ry="18"/>
-<text text-anchor="middle" x="656.3736" y="-902.456" font-family="Times,serif" font-size="14.00" fill="#000000">Can get stuff done</text>
+<ellipse fill="#00ff00" stroke="#000000" cx="659.3736" cy="-906.656" rx="83.9876" ry="25.4118"/>
+<text text-anchor="middle" x="659.3736" y="-909.456" font-family="Times,serif" font-size="14.00" fill="#000000">Can get stuff done</text>
+<text text-anchor="middle" x="659.3736" y="-895.456" font-family="Times,serif" font-size="14.00" fill="#000000">2019&#45;03&#45;12</text>
 </g>
 <!-- magi2&#45;&gt;faa_ting_gjort -->
 <g id="edge70" class="edge">
 <title>magi2&#45;&gt;faa_ting_gjort</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M579.0942,-1144.4215C588.2215,-1134.145 599.6405,-1120.0094 607.3736,-1105.9352 638.0192,-1050.1608 649.7548,-975.2001 654.0493,-934.9812"/>
-<polygon fill="#000000" stroke="#000000" points="657.5513,-935.1323 655.0517,-924.8365 650.5853,-934.4439 657.5513,-935.1323"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M581.4569,-1144.4787C590.8047,-1134.2249 602.4906,-1120.0933 610.3736,-1105.9352 639.5507,-1053.5329 651.5436,-983.8742 656.3356,-942.3155"/>
+<polygon fill="#000000" stroke="#000000" points="659.8414,-942.448 657.4299,-932.1312 652.8815,-941.7001 659.8414,-942.448"/>
 </g>
 <!-- magi3&#45;&gt;magi4 -->
 <g id="edge56" class="edge">
 <title>magi3&#45;&gt;magi4</title>
-<path fill="none" stroke="#000000" d="M702.0336,-1146.4566C719.8401,-1133.5945 746.8449,-1114.0883 766.8777,-1099.6181"/>
-<polygon fill="#000000" stroke="#000000" points="768.9322,-1102.4517 774.9892,-1093.7589 764.8334,-1096.7772 768.9322,-1102.4517"/>
+<path fill="none" stroke="#000000" d="M703.0336,-1146.4566C720.8401,-1133.5945 747.8449,-1114.0883 767.8777,-1099.6181"/>
+<polygon fill="#000000" stroke="#000000" points="769.9322,-1102.4517 775.9892,-1093.7589 765.8334,-1096.7772 769.9322,-1102.4517"/>
 </g>
 <!-- magi3&#45;&gt;penge -->
 <g id="edge64" class="edge">
 <title>magi3&#45;&gt;penge</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M662.5802,-1148.3816C642.4161,-1137.1778 611.1668,-1119.8145 585.3162,-1105.451"/>
-<polygon fill="#000000" stroke="#000000" points="586.8659,-1102.3081 576.4247,-1100.5106 583.466,-1108.4271 586.8659,-1102.3081"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M663.5686,-1148.2112C643.6963,-1137.0129 613.1058,-1119.7746 587.7597,-1105.4916"/>
+<polygon fill="#000000" stroke="#000000" points="589.4696,-1102.4378 579.0393,-1100.5776 586.033,-1108.5361 589.4696,-1102.4378"/>
 </g>
 <!-- helbred&#45;&gt;ehic -->
 <g id="edge63" class="edge">
 <title>helbred&#45;&gt;ehic</title>
-<path fill="none" stroke="#000000" d="M905.622,-973.6284C926.3732,-962.2137 952.756,-947.7012 975.6533,-935.106"/>
-<polygon fill="#000000" stroke="#000000" points="977.4911,-938.0897 984.5661,-930.2033 974.1173,-931.9564 977.4911,-938.0897"/>
+<path fill="none" stroke="#000000" d="M913.907,-973.8461C935.2142,-962.344 962.4494,-947.6418 986.0074,-934.9245"/>
+<polygon fill="#000000" stroke="#000000" points="987.6991,-937.9888 994.8362,-930.1585 984.3739,-931.829 987.6991,-937.9888"/>
 </g>
 <!-- helbred&#45;&gt;doctor -->
 <g id="edge62" class="edge">
 <title>helbred&#45;&gt;doctor</title>
-<path fill="none" stroke="#000000" d="M922.2168,-983.2865C978.3829,-972.033 1069.6374,-952.8151 1147.3736,-932.1118 1272.4661,-898.7963 1302.5504,-886.0963 1425.3736,-845.2001 1431.0147,-843.3219 1436.8887,-841.3205 1442.741,-839.2969"/>
-<polygon fill="#000000" stroke="#000000" points="1444.2331,-842.4834 1452.5246,-835.8879 1441.9298,-835.8732 1444.2331,-842.4834"/>
+<path fill="none" stroke="#000000" d="M930.3195,-983.6205C987.093,-972.5751 1079.696,-953.4639 1158.3736,-932.1118 1278.8125,-899.4263 1307.2019,-885.3162 1425.3736,-845.2001 1431.0036,-843.2889 1436.8704,-841.2662 1442.7184,-839.2296"/>
+<polygon fill="#000000" stroke="#000000" points="1444.2153,-842.414 1452.4972,-835.8065 1441.9024,-835.8071 1444.2153,-842.414"/>
 </g>
 <!-- penge&#45;&gt;spend_lovely_dkk -->
 <g id="edge65" class="edge">
 <title>penge&#45;&gt;spend_lovely_dkk</title>
-<path fill="none" stroke="#000000" d="M533.5973,-1054.8731C531.4449,-1046.7395 529.0252,-1037.5962 526.7245,-1028.9026"/>
-<polygon fill="#000000" stroke="#000000" points="530.0435,-1027.7627 524.1016,-1018.991 523.2764,-1029.5536 530.0435,-1027.7627"/>
+<path fill="none" stroke="#000000" d="M536.5973,-1054.8731C534.4449,-1046.7395 532.0252,-1037.5962 529.7245,-1028.9026"/>
+<polygon fill="#000000" stroke="#000000" points="533.0435,-1027.7627 527.1016,-1018.991 526.2764,-1029.5536 533.0435,-1027.7627"/>
 </g>
 <!-- penge&#45;&gt;mobilepay -->
 <g id="edge66" class="edge">
 <title>penge&#45;&gt;mobilepay</title>
-<path fill="none" stroke="#000000" d="M487.2883,-1070.5344C456.5298,-1062.0171 419.6055,-1046.5702 397.3736,-1019.0235 336.3209,-943.3751 345.4509,-819.4522 354.6627,-758.7355"/>
-<polygon fill="#000000" stroke="#000000" points="358.1754,-758.9356 356.3077,-748.5067 351.2642,-757.8241 358.1754,-758.9356"/>
+<path fill="none" stroke="#000000" d="M490.6114,-1070.2692C459.971,-1061.6551 423.0572,-1046.1994 400.3736,-1019.0235 337.8725,-944.1443 346.1679,-819.4298 354.962,-758.5545"/>
+<polygon fill="#000000" stroke="#000000" points="358.4242,-759.0672 356.4796,-748.6523 351.505,-758.0066 358.4242,-759.0672"/>
 </g>
 <!-- rejser&#45;&gt;rejsekort -->
 <g id="edge69" class="edge">
@@ -709,14 +711,14 @@
 <!-- faa_ting_gjort&#45;&gt;activated_nemid -->
 <g id="edge71" class="edge">
 <title>faa_ting_gjort&#45;&gt;activated_nemid</title>
-<path fill="none" stroke="#000000" d="M700.3536,-892.0109C742.0797,-878.1163 805.2839,-857.0696 852.7391,-841.2673"/>
-<polygon fill="#000000" stroke="#000000" points="853.9287,-844.5602 862.3107,-838.08 851.7171,-837.9187 853.9287,-844.5602"/>
+<path fill="none" stroke="#000000" d="M717.6041,-888.1179C761.0797,-874.2771 820.5549,-855.3427 865.8953,-840.9082"/>
+<polygon fill="#000000" stroke="#000000" points="867.1686,-844.176 875.6356,-837.8073 865.0451,-837.5058 867.1686,-844.176"/>
 </g>
 <!-- faa_ting_gjort&#45;&gt;danish_lessions -->
 <g id="edge72" class="edge">
 <title>faa_ting_gjort&#45;&gt;danish_lessions</title>
-<path fill="none" stroke="#000000" d="M649.7432,-888.6478C645.3668,-876.7615 639.5463,-860.9532 634.5845,-847.4768"/>
-<polygon fill="#000000" stroke="#000000" points="637.7352,-845.9042 630.9956,-837.7294 631.1663,-848.3229 637.7352,-845.9042"/>
+<path fill="none" stroke="#000000" d="M651.1242,-881.0497C648.4753,-872.8277 645.4941,-863.574 642.6661,-854.7959"/>
+<polygon fill="#000000" stroke="#000000" points="645.9621,-853.6125 639.5642,-845.1676 639.2993,-855.7591 645.9621,-853.6125"/>
 </g>
 </g>
 </svg>

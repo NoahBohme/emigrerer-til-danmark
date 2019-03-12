@@ -89,7 +89,7 @@ digraph g {
   get_paid -> danish_bank_account
   get_paid -> activated_nemid
 
-  danish_lessions [ label="Danish lessons" ]
+  danish_lessions [ label="Danish lessons\n2019-03-12" style=filled fillcolor=green ]
   danish_lessions -> cpr_number
   danish_lessions -> danish_bank_card
 
@@ -136,7 +136,7 @@ digraph g {
   rejser -> pendlerkort
   rejser -> rejsekort
   magi2 -> faa_ting_gjort [ style=dotted ]
-  faa_ting_gjort [ label="Can get stuff done" ]
+  faa_ting_gjort [ label="Can get stuff done\n2019-03-12" style=filled fillcolor=green ]
   faa_ting_gjort -> activated_nemid
   faa_ting_gjort -> danish_lessions
 }
