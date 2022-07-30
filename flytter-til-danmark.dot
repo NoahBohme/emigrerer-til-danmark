@@ -51,29 +51,29 @@ digraph g {
   skattekort
   skattekort -> cpr_number [ style="dotted" ]
 
-  nemid_application [ label="application for\nNemid" ]
-  nemid_application -> cpr_number
-  nemid [ label="Nemid" ]
-  nemid -> nemid_application
+  mitid_application [ label="application for\nMitID" ]
+  mitid_application -> cpr_number
+  mitid [ label="MitID" ]
+  mitid -> mitid_application
 
   danish_bank_account [ label="Danish bank account" ]
   danish_bank_account -> cpr_number
   danish_bank_account -> proof_of_work
-  danish_bank_account -> nemid [ style="dotted" ]
+  danish_bank_account -> mitid [ style="dotted" ]
   danish_bank_account -> passport
   danish_bank_account -> danish_phone_number
 
-  activated_nemid [ label="activated Nemid" ]
-  activated_nemid -> nemid
-  activated_nemid -> danish_phone_number
-  noglekort [ label="nøglekort" ]
-  activated_nemid -> noglekort
-  noglekort -> nemid_application [ style="dotted" color="red" ]
-  noglekort -> can_receive_post [ style="dotted" ]
+  activated_mitid [ label="activated MitID" ]
+  activated_mitid -> mitid
+  activated_mitid -> danish_phone_number
+  mitid_app [ label="MitID-app" ]
+  activated_mitid -> mitid_app
+  mitid_app -> mitid_application [ style="dotted" color="red" ]
+  mitid_app -> can_receive_post [ style="dotted" ]
 
   ehic [ label="Danish EHIC" ]
   ehic -> cpr_number
-  ehic -> nemid
+  ehic -> mitid
   ehic -> place_to_live
 
   doctor
@@ -83,7 +83,7 @@ digraph g {
   get_paid -> job
   get_paid -> skattekort
   get_paid -> danish_bank_account
-  get_paid -> nemid
+  get_paid -> mitid
 
   danish_lessions [ label="Danish lessons" ]
   danish_lessions -> cpr_number
